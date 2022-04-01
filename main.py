@@ -38,7 +38,7 @@ model = tf.keras.models.load_model("modelis.h5")
 model.build(tf.TensorShape([1, None]))
 
 
-st.title('LT Poemos')
+st.title('Lietuviškų Poemų generavimas')
 
 
 def generate_text(model, start_string, num_generate=1000, temperature=1.0):
